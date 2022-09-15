@@ -1,6 +1,8 @@
 create database crud1;
 use crud1;
 
+drop table if exist person;
+
 create table person(
 	id int not null auto_increment primary key,
 	name varchar(500) not null,

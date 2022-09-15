@@ -1,5 +1,5 @@
-create database crud1;
-use crud1;
+create database crud2;
+use crud2;
 
 drop table if exist `person`;
 
